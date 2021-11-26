@@ -1,0 +1,2 @@
+Um projeto simples onde criei uma pokedex, onde praticamente todo site funciona a base do javascript.
+Criei um arquivo pokedex.js, e lá eu insiro os pokémons que eu quero e no arquivo script.js eu chamo as informações dele.
