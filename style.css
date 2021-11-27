@@ -116,12 +116,12 @@ a {
     display: flex;
 }
 .pokemon-type{
-    margin-right: 3px;
-}
-.pokemon-type{
-    font-size: 12px;
+    font-size: 11px;
     padding: 1px 15px;
     border-radius: 3px;
+    margin-right: 3px;
+    width: 65px;
+    text-align: center;
 }
 header {
     display: flex;
