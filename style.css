@@ -336,7 +336,14 @@ header .pokedex-text {
         grid-template-columns: repeat(1, 1fr);
     }
     .pokemonWindowBody {
-        width: 410px;
+        width: 330px;
+    }
+    .pokemonNameArea .pokemonName, 
+    .pokemonNameArea .pokemonNumber {
+        font-size: 25px;
+    }
+    .pokemonDescriptArea .pokemonDescription {
+        font-size: 16px;
     }
     .pokemonWindowBodyCloseArea {
         justify-content: center;
@@ -347,9 +354,24 @@ header .pokedex-text {
     .pokemonPhotoBig {
         margin-right: 0px;
         margin-bottom: 30px;
+        text-align: center;
+    }
+    .pokemonPhotoBig img {
+        width: 224px;
+        height: auto;
+    }
+    .pokemonTypeArea span, 
+    .pokemonWeaknessArea span {
+        font-size: 15px;
     }
     .pokemonTypeArea,
     .pokemonWeaknessArea {
         margin-top: 30px;
+    }
+    .pokemonType--itens .pokemonType {
+        font-size: 15px;
+    }
+    .pokemonWeakness--itens .pokemonWeakness {
+        font-size: 15px;
     }
 }
